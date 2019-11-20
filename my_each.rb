@@ -6,7 +6,7 @@ def my_each(array)
  
     #while the array 
     
-    while array < array.map do array
+    while array 
       yield(i)
       binding.pry
       counter += 1
