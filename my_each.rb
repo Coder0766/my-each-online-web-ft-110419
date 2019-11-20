@@ -4,7 +4,7 @@ def my_each(array)
   if block_given?
     counter = 0
  
-    #while the array 
+    #we want our block to run over  each element in the array  
     
     while array 
       yield(i)
