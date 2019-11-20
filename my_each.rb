@@ -7,6 +7,7 @@ def my_each(array)
     #we want our block to run over  each element in the array  
     
     while counter < array.length 
+    #we want to pass individual elements to the block 
       yield(i)
       binding.pry
       counter += 1
