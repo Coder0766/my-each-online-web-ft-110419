@@ -9,7 +9,7 @@ def my_each(array)
     while counter < array.length 
       #we want to pass individual elements to the block, and we want to pass the element that corresponds to which iteration we're in.  
       yield(array[counter])
-      binding.pry
+      #binding.pry
       counter += 1
     end
     array
