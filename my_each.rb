@@ -8,7 +8,7 @@ def my_each(array)
     
     while counter < array.length 
       #we want to pass individual elements to the block, and we want to pass the element that corresponds to which iteration we're in.  
-      yield()
+      yield(array[counter])
       binding.pry
       counter += 1
     end
@@ -21,3 +21,4 @@ end
 #ex:array =  [1, 2, 3, 4, 5, ]
 #array.collect {|num| num + 1}
 # => [2, 3, 4, 5, 6]
+#map and collect are the saame
