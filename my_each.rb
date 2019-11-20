@@ -6,7 +6,7 @@ def my_each(array)
  
     #we want our block to run over  each element in the array  
     
-    while counter < array.length 
+    while counter < array.length
       yield(i)
       binding.pry
       counter += 1
