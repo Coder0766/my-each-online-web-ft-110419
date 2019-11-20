@@ -4,7 +4,7 @@ def my_each(array)
   if block_given?
     counter = 0
  
-    while array < array.cycle(array) do array
+    while array < array.map do array
       yield(i)
       binding.pry
       counter += 1
