@@ -15,3 +15,9 @@ def my_each(array)
     array
   end
 end
+
+#collect  is an enumerable that returns an array with the same amount of elements as the original collection. it makes a transformation on each element 
+
+#ex:array =  [1, 2, 3, 4, 5, ]
+#array.collect {|num| num + 1}
+# => [2, 3, 4, 5, 6]
